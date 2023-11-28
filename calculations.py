@@ -14,6 +14,11 @@ def power(x, y):
     return result
 
 
+def minus(x, y):
+    return x - y
+
+
 print(add(5, 4))  # --> 9
 print(multiply(3, 4))  # --> 12
 print(power(2, 8))  # --> 256
+print(minus(4, 2))  # --> 2
